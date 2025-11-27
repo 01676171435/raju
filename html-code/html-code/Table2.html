@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>HTML Table</title>
+	<style>
+		table,
+		td,
+		th {
+			border: 1px solid black;
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 200px;
+			height: 150px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 align="center">Table</h1>
+	<hr />
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th colspan="2">Country</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>Elon</td>
+				<td>43</td>
+				<td rowspan="2">Bangladesh</td>
+				<td>England</td>
+			</tr>
+			<tr>
+				<td>Mark</td>
+				<td>438</td>
+				<td>India</td>
+			</tr>
+			<tr>
+				<td>Bill</td>
+				<td>4382</td>
+				<td>America</td>
+				<td>Canada</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+
+</html>
